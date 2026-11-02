@@ -1,0 +1,32 @@
+
+WEEK 2 - LOGISTICS DATA PREPROCESSING RESULTS
+
+1. ORIGINAL DATASET
+Rows: 180519
+Columns: 53
+Duplicate records: 0
+Columns containing missing values:
+Customer Lname              8
+Customer Zipcode            3
+Order Zipcode          155679
+Product Description    180519
+
+2. CLEANING RESULTS
+Rows after cleaning: 180519
+Columns after cleaning: 39
+Missing values after cleaning: 0
+Duplicate records after cleaning: 0
+
+3. FEATURE ENGINEERING AND NORMALIZATION
+Final rows: 180519
+Final columns: 42
+Missing values in final dataset: 0
+Duplicate records in final dataset: 0
+
+4. NORMALIZATION CHECK
+Selected numerical features were scaled using Min-Max normalization.
+Expected range: 0 to 1.
+
+5. OUTPUT FILES
+cleaned_logistics_data.csv
+normalized_logistics_data.csv
